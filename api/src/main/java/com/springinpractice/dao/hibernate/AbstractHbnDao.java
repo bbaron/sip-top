@@ -1,7 +1,9 @@
 /* 
- * $Id: AbstractHbnDao.java 16 2011-04-18 05:29:18Z willie $
+ * Copyright (c) 2013 Manning Publications Co.
  * 
- * Copyright (c) 2010-2011 Manning Publications Co.
+ * Book: http://manning.com/wheeler/
+ * Blog: http://springinpractice.com/
+ * Code: https://github.com/springinpractice
  */
 package com.springinpractice.dao.hibernate;
 
@@ -24,7 +26,6 @@ import com.springinpractice.dao.Dao;
 // it has direct access to the DAOs. I don't think we're doing direct DAO injects into controllers anywhere. [WLW]
 
 /**
- * @version $Id: AbstractHbnDao.java 16 2011-04-18 05:29:18Z willie $
  * @author Willie Wheeler (willie.wheeler@gmail.com)
  */
 public abstract class AbstractHbnDao<T extends Object> implements Dao<T> {
